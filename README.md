@@ -1,3 +1,11 @@
+# Build
+
+```bash
+$ cmake -GNinja -S src -B build
+$ ninja -C build
+$ ./build/LearnCPP
+```
+
 # debug note
 
 ```bash
@@ -18,3 +26,4 @@ lldb ./bin/learncpp
 
 - https://lldb.llvm.org/use/tutorial.html
 - https://qiita.com/theefool/items/8b985ce71dcdccf26abc
+- https://ninja-build.org/manual.html
